@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #2c2c54, #575fcf);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #ffeaa7;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+button {
+  background: #0984e3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background: #74b9ff;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.menu button {
+  width: 200px;
+  margin: 10px;
+}
+
+.voltar {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ffeaa7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.voltar:hover {
+  text-decoration: underline;
+}
